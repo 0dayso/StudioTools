@@ -1,0 +1,47 @@
+﻿.dtree_loading
+{
+    background: transparent url(images/suggest_loading.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 10px;
+    min-width: 10px;
+}
+.dtree_scroll
+{
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    /*background-color:#F1F1F1;*/
+}
+.dtree
+{
+    white-space: nowrap;
+    font-size:8pt;
+}
+.dtree img
+{
+    border: 0;
+    vertical-align: middle;
+}
+.dtree a.node, .dtree a.nodeSel
+{
+    white-space: nowrap;
+    padding: 1px 2px 1px 2px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover
+{
+    color: #333;
+    text-decoration: underline;
+}
+.dtree a.nodeSel
+{
+    background-color: #c0d2ec;
+}
+.dtree .clip
+{
+    /*overflow: hidden;*/
+}
+.dTreeNode
+{
+	margin-left: 2px;
+}

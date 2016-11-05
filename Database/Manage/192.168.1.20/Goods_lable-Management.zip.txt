@@ -1,0 +1,6 @@
+
+7-Zip [64] 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+
+Error:
+7-Zip cannot find the code that works with archives.

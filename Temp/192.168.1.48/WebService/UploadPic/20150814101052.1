@@ -1,0 +1,10 @@
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> 未将对象引用设置到对象的实例。
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at GetTogether.Studio.WebService.Extension.DynamicProxy.Svc.UploadPic(Byte[] pic, String path, String file, String Breviary, Int32 AutoGenImg)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at GetTogether.Studio.WebService.Wsdl.Invoke(String methodName, Object[] parameters)

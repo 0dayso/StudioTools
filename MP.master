@@ -1,0 +1,33 @@
+<%@ master language="C#" autoeventwireup="true" inherits="MP, App_Web_tqctrkfg" %>
+
+<%@ Register Src="~/Components/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Work Studio
+    </title>
+	<link rel="shortcut icon" href="<%=ResolveClientUrl("~") %>themes/skin-<%=GetTogether.Studio.Config.Original.Skin %>/images/favicon.ico" />
+    <link href="<%=ResolveClientUrl("~") %>themes/skin-<%=GetTogether.Studio.Config.Original.Skin %>/ws.css?v=<%=GetTogether.Studio.Config.Original.ScriptStyleVersion %>" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div align="center">
+        <div style="width: 100%; text-align: left;">
+            <uc1:Header ID="Header1" runat="server" />
+            <div style="margin: 0px 5px;">
+                <asp:ContentPlaceHolder ID="MP1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">var SerUrl = "<%=ResolveUrl("~") %>";</script>
+<script src="<%=ResolveClientUrl("~") %>js/jquery.js?v=<%=GetTogether.Studio.Config.Original.ScriptStyleVersion %>" type="text/javascript"></script>
+<script src="<%=ResolveClientUrl("~") %>js/jquery-ext.js?v=<%=GetTogether.Studio.Config.Original.ScriptStyleVersion %>" type="text/javascript"></script>
+<script src="<%=ResolveClientUrl("~") %>js/ws.js?v=<%=GetTogether.Studio.Config.Original.ScriptStyleVersion %>" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+    SerUrlValueStyle = SerUrl + 'themes/skin-<%=GetTogether.Studio.Config.Original.Skin %>/';
+    SetupInit();
+</script>
+<asp:contentplaceholder id="ScriptPlaceHolder" runat="server">
+    </asp:contentplaceholder>
+</html>

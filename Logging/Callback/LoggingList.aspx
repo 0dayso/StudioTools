@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="logging_Callback_LoggingList, App_Web_pdu7mzgk" %>

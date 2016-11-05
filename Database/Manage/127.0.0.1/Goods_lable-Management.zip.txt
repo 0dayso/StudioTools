@@ -1,0 +1,16 @@
+
+7-Zip (A) 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+Scanning
+
+Creating archive E:\esunlit\exampleApp\GetTogether.Studio\GetTogether.Studio.UI\Database\Manage\127.0.0.1\Goods_lable-Management.zip
+
+Compressing  Goods_lable\Goods_lable.aspx.cs
+Compressing  Goods_lable\Goods_lable_Callback.aspx.cs
+Compressing  Goods_lable\Goods_lable_Edit.aspx.cs
+Compressing  Goods_lable\Goods_lable_Result.ascx.cs
+Compressing  Goods_lable\Goods_lable.aspx
+Compressing  Goods_lable\Goods_lable_Callback.aspx
+Compressing  Goods_lable\Goods_lable_Edit.aspx
+Compressing  Goods_lable\Goods_lable_Result.ascx
+
+Everything is Ok
